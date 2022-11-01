@@ -1,0 +1,95 @@
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+hr { display: block; height: 1px;
+  border: 0; border-top: 1px solid #ccc;
+  margin: 1em 0; padding: 0; border-color: green; }
+
+.grey-bg{
+  background-color: #f7f7f7;
+}
+
+.white-bg{
+  background-color: white;
+}
+
+.font-classic{
+  font-family: 'Poppins', sans-serif;
+}
+
+.main{
+  font-family: 'Poppins', sans-serif;
+}
+
+.bg-image{
+  background-image: url("./imgs/astanait2.jpeg");
+  background-size: cover;
+}
+
+.bg-image2{
+  background-image: url("./imgs/astanait7.jpg");
+  background-size: cover;
+}
+
+.bg-image3{
+  background-image: url("./imgs/expo.jpg");
+  background-size: cover;
+}
+.astanait{
+  height: 350px;
+  width: 500px;
+}
+
+.logos{
+  height: 90px;
+  width: 180px;
+}
+
+.logo2{
+  height: 105px;
+  width: 145px;
+}
+
+.logoaitu{
+  height: 50px;
+  width: 100px;
+}
+
+.pictures{
+  height: 100px;
+  width: 100px;
+}
+
+.card-container.card {
+  max-width: 350px !important;
+  padding: 40px 40px;
+}
+
+.footer{
+  background-color: #343a40;
+}
+
+.card {
+  background-color: #f7f7f7;
+  padding: 20px 25px 30px;
+  margin: 0 auto 25px;
+  margin-top: 50px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.profile-img-card {
+  width: 96px;
+  height: 96px;
+  margin: 0 auto 10px;
+  display: block;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
