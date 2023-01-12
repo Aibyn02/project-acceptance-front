@@ -9,7 +9,7 @@ export default function Home() {
   }, [])
 
   const loadProject=async ()=>{
-    const result=await axios.get("http://localhost:8080/api/test/project/")
+    const result=await axios.get("https://project-acceptance-platform-production.up.railway.app/api/test/project/")
     setProjects(result.data);
   }
 

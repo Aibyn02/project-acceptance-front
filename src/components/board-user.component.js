@@ -21,7 +21,7 @@ export default function BoardUser() {
 
   const onSubmit =async (e) => {
     e.preventDefault();
-    await axios.post("http://localhost:8080/api/test/project/create",project)
+    await axios.post("https://project-acceptance-platform-production.up.railway.app/api/test/project/create",project)
     navigate("/")
   };
 

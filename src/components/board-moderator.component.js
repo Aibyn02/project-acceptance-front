@@ -13,12 +13,12 @@ export default function BoardModerator() {
     const {id}=useParams()
 
     const loadProject=async ()=>{
-        const result=await axios.get("http://localhost:8080/api/test/project/")
+        const result=await axios.get("https://project-acceptance-platform-production.up.railway.app/api/test/project/")
         setProjects(result.data);
     }
 
     const deleteProject=async (id)=>{
-        await axios.delete(`http://localhost:8080/api/test/project/delete/${id}`)
+        await axios.delete(`https://project-acceptance-platform-production.up.railway.app/api/test/project/delete/${id}`)
         loadProject();
     }
 
