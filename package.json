@@ -43,5 +43,13 @@
   "engines": {
     "node": "v17.8.0",
     "npm": "8.5.5"
+  },
+  "$schema": "https://railway.app/railway.schema.json",
+  "build": {
+    "builder": "NIXPACKS"
+  },
+  "deploy": {
+    "restartPolicyType": "ON_FAILURE",
+    "restartPolicyMaxRetries": 10
   }
 }
