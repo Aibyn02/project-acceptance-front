@@ -24,12 +24,12 @@ export default function AcceptPage() {
 
     const onSubmit = async (e) => {
         e.preventDefault();
-        await axios.put(`https://project-acceptance-platform-production.up.railway.app/api/test/project/update/${id}`, project)
+        await axios.put(`http://localhost:8080/api/test/project/update/${id}`, project)
         navigate("/")
     };
 
     const loadProject = async () => {
-        const result = await axios.get(`https://project-acceptance-platform-production.up.railway.app/api/test/project/update/${id}`)
+        const result = await axios.get(`http://localhost:8080/api/test/project/update/${id}`)
         setProject(result.data)
     }
 
