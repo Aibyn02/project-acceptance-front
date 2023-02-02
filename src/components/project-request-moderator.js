@@ -18,7 +18,7 @@ export default function ProjectRequestModerator() {
     }
 
     const deleteProject = async (id) => {
-        await axios.delete(`project-acceptance-platform-production.up.railway.app/api/test/project/delete/${id}`)
+        await axios.delete(`https://project-acceptance-platform-production.up.railway.app/api/test/project/delete/${id}`)
         loadProject();
     }
 
